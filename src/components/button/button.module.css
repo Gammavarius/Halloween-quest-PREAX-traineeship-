@@ -1,0 +1,128 @@
+.btn {
+  width: 100%;
+  padding: 16px 24px;
+  background-color: var(--terracota-100);
+  color: var(--neutral-0);
+  border: none;
+  border-radius: 24px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-size: var(--font-xl-size);
+  line-height: var(--font-xl-line);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}   
+
+.btn:hover {
+  background-color: var(--terracota-0);
+}
+
+.btn:active {
+  background-color: var(--terracota-200);
+}
+
+.btn--choice {
+  background-color: var(--neutral-300);
+  border: 1px solid var(--neutral-0_10);
+  color: var(--neutral-0);
+  text-align: left;
+  font-weight: 500;
+  font-size: var(--font-2xl-size);
+  line-height: var(--font-2xl-line);
+  text-transform: none;
+  padding: 16px;
+  border-radius: 24px;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn--choice:hover {
+  background-color: var(--neutral-0);
+  color: var(--neutral-400);
+}
+
+.btn--choice:active {
+  background-color: var(--neutral-200);
+}
+
+.number {
+  color: var(--terracota-100);
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.btn--choice:hover .number {
+  color: var(--neutral-400);
+}
+
+.btn--brand {
+  background-color: var(--terracota-100);
+  color: var(--neutral-0);
+}
+.btn--brand:hover {
+  background-color: var(--terracota-0);
+}
+.btn--brand:active {
+  background-color: var(--terracota-200);;
+}
+.btn--brand:disabled {
+  background-color: var(--terracota-100_50);
+}
+
+.btn--yellow {
+  background-color: var(--yellow-light-100);
+  color: var(--neutral-400);
+}
+.btn--yellow:hover {
+  background-color: var(--yellow-light-0);
+}
+.btn--yellow:active {
+  background-color: var(--yellow-light-200);
+}
+.btn--yellow:disabled {
+  background-color: var(--yellow-light-100_50);
+}
+
+.btn--white {
+  background-color: var(--neutral-0);
+  color: var(--neutral-400);
+}
+.btn--white:hover {
+  background-color: var(--neutral-200);
+}
+.btn--white:active {
+  background-color: var(--neutral-100);
+}
+.btn--white:disabled {
+  background-color: var(--neutral-0_50);
+}
+
+.btn--violet {
+  background-color: var(--green-light-100);
+  color: var(--neutral-400);
+}
+.btn--violet:hover {
+  background-color: var(--green-light-0);
+}
+.btn--violet:active {
+  background-color: var(--green-light-200);
+}
+.btn--violet:disabled {
+  background-color: var(--green-light-100_50);
+}
+
+@media (max-width: 1024px) {
+  .btn {
+    font-size: var(--font-md-size);
+    line-height: var(--font-md-line);
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn {
+    font-size: var(--font-sm-size);
+    line-height: var(--font-sm-line);
+    padding: 8px 24px;
+  }
+}

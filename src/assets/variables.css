@@ -1,0 +1,49 @@
+:root {
+    --neutral-0: #FFFFFF;
+    --neutral-100: #F5F5F5;
+    --neutral-200: #E2E2E2;
+    --neutral-300: #272727;
+    --neutral-400: #151515;
+    
+    --neutral-0_10: rgba(255, 255, 255, 10%);
+    --neutral-0_50: rgba(255, 255, 255, 50%);
+    --neutral-400_50: rgba(21, 21, 21, 50%);
+
+    --terracota-0: #F56737;
+    --terracota-100: #F04911; /*main*/
+    --terracota-200: #C23A0C;
+    --terracota-300: #3E1800;
+    --terracota-400: #150401;
+
+    --terracota-300-400: linear-gradient(135deg, #3E1800 0%, #150401 100%);
+    --terracota-100_50: rgba(240, 73, 17, 50%);
+
+    --green-light-0: #E5FD8A;
+    --green-light-100: #DCFE5A; /*main*/
+    --green-light-200: #A5C821;
+
+    --green-light-100_50: rgba(220, 254, 90, 50%);
+
+    --yellow-light-0: #FDF4A7;
+    --yellow-light-100: #FFF178;
+    --yellow-light-200: #F1DF43;
+
+    --yellow-light-100_50: rgba(255, 241, 120, 50%);
+
+    --h1-size: 40px;
+    --h1-line: 48px;
+    --h2-size: 32px;
+    --h2-line: 40px;
+    --font-2xl-size: 24px;
+    --font-2xl-line: 32px;
+    --font-xl-size: 20px;
+    --font-xl-line: 28px;
+    --font-lg-size: 18px;
+    --font-lg-line: 24px;
+    --font-md-size: 16px;
+    --font-md-line: 24px;
+    --font-sm-size: 14px;
+    --font-sm-line: 20px;
+    --font-xs-size: 12px;
+    --font-xs-line: 16px;
+}

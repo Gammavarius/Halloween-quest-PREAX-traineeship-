@@ -1,0 +1,107 @@
+.finalCard {
+  max-width: 1216px;
+  width: 100%;
+  min-height: 752px;
+}
+
+.kicker {
+  display: block;
+  font-size: var(--font-lg-size);
+  line-height: var(--font-lg-line);
+  font-weight: 500;
+  color: var(--neutral-0_50);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.title {
+  color: var(--card-accent, var(--neutral-0)); 
+  margin-bottom: 24px;
+}
+
+.text {
+  font-size: var(--font-2xl-size);
+  line-height: var(--font-2xl-line);
+  color: var(--neutral-200);
+  font-weight: 200;
+  margin-bottom: 32px;
+}
+
+.text strong {
+  font-weight: 700;
+  color: var(--neutral-0);
+}
+
+.restartBtn {
+  margin-top: auto; 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .finalCard {
+      max-width: 896px; 
+      width: 100%;
+      min-height: auto;
+  }
+    .kicker {
+    font-size: var(--font-sm-size);
+    line-height: var(--font-sm-line);
+  }
+
+  .title {
+    font-size: var(--h2-size);
+    line-height: var(--h2-line);
+  }
+
+  .text {
+    font-size: var(--font-lg-size);
+    line-height: var(--font-lg-line);
+  }
+}
+
+@media (max-width: 768px) {
+    .finalCard {
+        max-width: 704px; 
+        width: 100%;
+    }
+    
+    .wrapper {
+        max-width: 704px;
+    }
+}
+
+@media (max-width: 375px) {
+  .finalCard {
+    max-width: 343px; 
+    width: 100%;
+  }
+  
+  .wrapper {
+    max-width: 343px;
+  }
+
+  .kicker {
+    font-size: var(--font-xs-size);
+    line-height: var(--font-xs-line);
+    margin-bottom: 4px;
+  }
+
+  .title {
+    font-size: var(--font-2xl-size);
+    line-height: var(--font-2xl-line);
+    margin-bottom: 16px;
+  }
+
+  .text {
+    font-size: var(--font-md-size);
+    line-height: var(--font-md-line);
+    margin-bottom: 16px;
+    gap: 8px;
+  }
+}

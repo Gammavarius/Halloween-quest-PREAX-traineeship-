@@ -1,0 +1,25 @@
+.pageFooter {
+    color: var(--neutral-0_50);
+    width: 100%;
+    text-align: left;
+    margin-top: 24px;
+    font-size: var(--font-2xl-size);
+}
+
+.preaxLink {
+    color: var(--neutral-0_50);
+}
+
+@media (max-width: 1024px) {
+    .pageFooter {
+        font-size: var(--font-lg-size);
+        line-height: var(--font-lg-line);
+    }
+}
+
+@media (max-width: 375px) {
+    .pageFooter {
+        font-size: var(--font-md-size);
+        line-height: var(--font-md-line);
+    }
+}

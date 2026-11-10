@@ -1,0 +1,98 @@
+@import './normalize.css';
+@import './variables.css';
+
+@font-face {
+    font-family: "Unbounded";
+    src: url('../assets/fonts/Unbounded-Bold.woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url('../assets/fonts/Manrope-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url('../assets/fonts/Manrope-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url('../assets/fonts/Manrope-ExtraLight.woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font: 200 var(--font-2xl-size) "Manrope", sans-serif;
+    letter-spacing: 2%; 
+    font-size: var(--font-md-size);
+    line-height: var(--font-md-line);
+    color: var(--neutral-0);
+    margin: 0;
+    min-height: 100vh;
+    transition: 
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        fill 0.2s ease,
+        stroke 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: normal;
+}
+
+h1 {
+    font-size: var(--h1-size);
+    line-height: var(--h1-line);
+}
+
+h2 {
+    font-size: var(--h2-size);
+    line-height: var(--h2-line);
+}
+
+h3 {
+    font-size: var(--font-2xl-size);
+    line-height: var(--font-2xl-line);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
